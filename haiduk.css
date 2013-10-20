@@ -1,0 +1,17 @@
+.jumbotron.main { background: #ffffff url('image/header.jpg') no-repeat bottom right; }
+.jumbotron { background-image: url('image/brushed.png'); }
+.jumbotron h1 { font-size: 40pt; }
+.jumbotron:not(:nth-child(2)) { margin-top: 30px; }
+.jumbotron:first-child { margin: 0; padding: 120px 30px; }
+.haiduk { font-weight: bold; color: #dd4124; }
+.jumbotron.main h1 { font-size: 60pt; color: #dd4124; }
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .jumbotron.main { padding: 60px 30px 180px 30px; }
+}
+@media (max-width: 767px) {
+    .jumbotron.main { padding: 40px 30px 140px 30px; background-image: url('image/header-small.jpg'); }
+}
+@media (max-width: 580px) {
+    .jumbotron.main { padding: 30px; background-image: none; }
+}
